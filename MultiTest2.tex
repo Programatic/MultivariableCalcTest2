@@ -3,7 +3,7 @@
 \date{\today}
 
 \documentclass[12pt]{article}
-
+\usepackage{amsmath}
 
 \begin{document}
 \maketitle \begin{enumerate}
@@ -39,4 +39,32 @@ $$-4(x-2)+2 (y+1)+z-2=0$$
 $$\vec{n_1} = <4,-2,4> \quad \vec{n_2} = <-4, 2,1>$$
 $$\cos(\theta) = \frac{\vec{n_1} \cdot \vec{n_2}}{\parallel \vec{n_1} \parallel \cdot \parallel \vec{n_2} \parallel}$$
 $$\cos(\theta) = \frac{-16}{6\sqrt{21}}$$
+\item a
+\item $$<\frac{3}{5}, \frac{4}{5}> \cdot \nabla f = 2 \quad <\frac{-4}{5}, \frac{3}{5}> \cdot \nabla f = 2$$
+$$\frac{3}{5}f_x+\frac{4}{5}f_y=2 \quad \frac{-4}{5}f_x+\frac{3}{5}f_y=-1$$
+$$f_x (0,0) = 2 \quad f_y(0,0)=1$$
+$$2x+y+1=L(x,y) \quad f(0.06, .08) = 1.2$$
+\item 9
+\item 10
+\item \begin{enumerate}
+\item $$f(x,y) = 2x^2+y^4-4xy$$
+$$f_x = 4x-4y = 0 \quad f_y = 4y^3-4x=0$$
+$$(-1,-1), (0,0), (1,1)$$
+\item 
+$$
+\begin{bmatrix}
+   f_{xx} & f_{yx} \\
+   f_{xy} & f_{yy}
+\end{bmatrix}
+=
+\begin{bmatrix}
+   4 & -4 \\
+   -4 & 12y^2
+\end{bmatrix}$$
+\item $$\textbf{D} = f_{xx}f_{yy} - f_{xy}^2 = 48y^2-16$$
+$$D(-1,-1) > 0, f_{xx} > 4 \rightarrow \textrm{local minimum}$$
+$$D(0,0) < 0 \rightarrow \textrm{saddle point}$$
+$$D(1,1) > 0, f_{xx} > 4 \rightarrow \textrm{local minimum}$$
+\item $$-\nabla f = -<4x-4y, 4y^3-4x> \quad -\nabla f(3,2) = -<4, 20>$$
+\end{enumerate}
 \end{enumerate} \end{document}
