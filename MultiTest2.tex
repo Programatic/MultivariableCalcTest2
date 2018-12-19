@@ -39,12 +39,18 @@ $$-4(x-2)+2 (y+1)+z-2=0$$
 $$\vec{n_1} = <4,-2,4> \quad \vec{n_2} = <-4, 2,1>$$
 $$\cos(\theta) = \frac{\vec{n_1} \cdot \vec{n_2}}{\parallel \vec{n_1} \parallel \cdot \parallel \vec{n_2} \parallel}$$
 $$\cos(\theta) = \frac{-16}{6\sqrt{21}}$$
+\item \begin{enumerate}
 \item $$f\left(x,y,z\right)=x^3+y^3-z^3 \quad f\left(9,10,12\right) = 1$$
 $$f_x = 3x^2 \quad f_y = 3y^2 \quad f_z = -3z^2$$
 $$L(x,y,z) = f(9,10,12) + f_x(x-9)+f_y(y-10)+f_z(z-12)$$
 $$L(x,y,z) = 1 + 243(x-9)+300(y-10)-432(z-12)$$
 $$L(9.001,10.02,12.001)=1+243*.001+300*.02-432*.001=6.811$$
 $$f(9.001,10.02,12.001)=6.822999$$
+\item $$f(x,y)=x\sqrt{y} f(3.141,163)=3.141\sqrt{163}$$
+$$f_x=\sqrt{y}=\sqrt{163} \quad f_y=\frac{x}{2\sqrt{y}}=\frac{3.141}{2\sqrt{163}}$$
+$$L(x,y) = 3.141\sqrt{163} + \sqrt{163}(x-3.141) + \frac{3.141}{2\sqrt{163}}(y-163)$$
+$$L(3,169)=39.0395 \quad f(3,169)=39$$
+\end{enumerate}
 
 \item $$<\frac{3}{5}, \frac{4}{5}> \cdot \nabla f = 2 \quad <\frac{-4}{5}, \frac{3}{5}> \cdot \nabla f = 2$$
 $$\frac{3}{5}f_x+\frac{4}{5}f_y=2 \quad \frac{-4}{5}f_x+\frac{3}{5}f_y=-1$$
