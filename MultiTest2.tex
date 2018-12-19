@@ -10,7 +10,11 @@
 \begin{document}
 \maketitle \begin{enumerate}
 
-\item shit
+\item By saying $\nabla f = \lambda \nabla g$, we are saying that $\nabla g$ is a constant multiple of $\nabla f$. Since they are both vectors, they can have a cross product. This cross product then must become 0 because they are constant multiples.
+$$f(x,y)=xy \quad \nabla f = <y,x>$$
+$$g(x,y)=x^2+y^2-9 \quad \nabla g = <2x,2y>$$
+$$y=\lambda 2x \quad x=\lambda 2 y \rightarrow \frac{y}{2x} = \frac{x}{2y}$$
+$$x=y \quad 2x^2=9 \rightarrow x = y = \pm \frac{3}{\sqrt{2}}$$
 
 \item \begin{enumerate}
 \item 
@@ -90,4 +94,7 @@ $$D(0,0) < 0 \rightarrow \textrm{saddle point}$$
 $$D(1,1) > 0, f_{xx} > 4 \rightarrow \textrm{local minimum}$$
 \item $$-\nabla f = -<4x-4y, 4y^3-4x> \quad -\nabla f(3,2) = -<4, 20>$$
 \end{enumerate}
+\item $$f(x,y)=e^{\frac{x}{y}} \quad f(tx,yx) = e^{\frac{tx}{ty}} = e^{\frac{x}{y}} = t^0f(x,y) \quad n = 0$$
+$$f_x(x,y) = \frac{e^{\frac{x}{y}}}{y} \quad f_y(x,y)=\frac{-xe^{\frac{x}{y}}}{y^2}$$
+$$\frac{xe^{\frac{x}{y}}}{y} - \frac{xe^{\frac{x}{y}}}{y^2} = (0)f(x,y)$$
 \end{enumerate} \end{document}
